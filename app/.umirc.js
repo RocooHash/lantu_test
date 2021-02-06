@@ -1,6 +1,12 @@
 
 // ref: https://umijs.org/config/
 export default {
+  proxy: {
+    '/jsonrpc': {
+      'target': 'http://127.0.0.1:8000/jsonrpc/',
+      'changeOrigin': true,
+    },
+  },
   treeShaking: true,
   routes: [
     {
@@ -28,4 +34,5 @@ export default {
       },
     }],
   ],
+
 }
