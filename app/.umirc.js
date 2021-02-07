@@ -3,7 +3,7 @@
 export default {
   proxy: {
     '/jsonrpc': {
-      'target': 'http://127.0.0.1:8000/jsonrpc/',
+      'target': 'http://127.0.0.1:65534/jsonrpc/',
       'changeOrigin': true,
     },
   },

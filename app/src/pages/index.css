@@ -21,3 +21,10 @@
 .list code {
   background: #f7f7f7;
 }
+
+.text {
+    margin-bottom: 12px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-palette: dark;
+}
